@@ -7,8 +7,9 @@
 	display:inline-block;
 	vertical-align:top;
 	box-sizing:border-box;
-	margin-top: 40px;
+	margin-top:40px;
 }
+
 
 .box {
 	border-top:2px solid #5BA3D6;
@@ -23,28 +24,35 @@
 .blue.box div {
 	border-right:2px solid #5BA3D6;
 	height:42px;
-	width:19%;
+	width:18%;
 	display:inline-block;
 	box-sizing: border-box;
+	vertical-align: top;
 	
 }
 
 .pink.box div {
 	border-right:2px solid #5BA3D6;
 	height:42px;
-	width:19%;
+	width:18%;
 	display:inline-block;
-	box-sizing: border-box;
+	box-sizing:border-box;
+	vertical-align: top;
+
 }
 
 .orange.box div {
 	border-right:2px solid #5BA3D6;
 	height:42px;
-	width:19%;
+	width:18%;
 	display:inline-block;
 	box-sizing: border-box;
+	vertical-align: top;
 }
 
+.column .box :nth-child(5) {
+	border-right:none;
+}
 
 img {
 	height: 240px;
@@ -54,6 +62,60 @@ img {
 	padding-bottom: 31px;
 }
 
-.flipBox {
-	
+p {
+	color:#5BA3D6;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	margin:13px;
+}
+
+i {
+	color:#5BA3D6;
+	box-sizing: border-box;
+	display:block;
+	text-align:center;
+}
+
+.blue.four .small {
+	border:solid #7BB4DC;
+	background-color: #7BB4DC;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	box-sizing:border-box;
+	margin:13px
+
+}
+
+.pink.four .small {
+	border:solid #D482AA;
+	background-color: #D482AA;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	box-sizing:border-box;
+	margin:13px
+}
+
+.orange.four .small {
+	border:solid #D8AD7A;
+	background-color: #D8AD7A;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	box-sizing:border-box;
+	margin:13px
+}
+
+.column .box i {
+	text-align: center;
+    display: block;
+    margin: 13px;
+}
+
+
+@media screen and (max-width: 990px) {
+	.column{
+		width:100%;
+	}
 }
