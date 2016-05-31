@@ -217,6 +217,7 @@ span {
     top: -176px;
     margin-left:-12px;
     margin-top:22px;
+    padding:0;
 
 }
 
@@ -320,12 +321,10 @@ span {
 .tshirtColor ul {
 	display: none;
     position: absolute;
-    top: -91px;
-    margin-left:-12px;
+    top: -96px;
+    margin-left:-15px;
     margin-top:22px;
-
 }
-
 
 @keyframes moveUp {
   0% {
@@ -348,8 +347,8 @@ span {
 	display: block;
 	border:solid 2px #5BA3D6;
 	background-color:white;
-	height:65px;
-	width:65px;
+	height:70px;
+	width:70px;
 }
 
 .selector.blue {
@@ -359,8 +358,9 @@ span {
 	width:20px;
 	display:inline-block;
 	box-sizing:border-box;
-	margin:13px;
-	margin-bottom:7px;
+	margin:3px;
+	margin-top: 12px;
+	margin-left: 10px;
 }
 
 .selector.pink {
@@ -370,8 +370,8 @@ span {
 	width:20px;
 	display:inline-block;
 	box-sizing:border-box;
-	margin:13px;
-	margin-bottom:7px;
+	margin:3px;
+	margin-top: 12px;
 }
 
 .selector.orange {
@@ -381,8 +381,9 @@ span {
 	width:20px;
 	display:inline-block;
 	box-sizing:border-box;
-	margin:13px;
-	margin-bottom:7px;
+	margin:3px;
+	margin-left:10px;
+	
 }
 
 .selector.green {
@@ -392,10 +393,9 @@ span {
 	width:20px;
 	display:inline-block;
 	box-sizing:border-box;
-	margin:13px;
-	margin-bottom:7px;
+	margin:3px;
+	
 }
-
 
 
 @media screen and (max-width: 990px) {
