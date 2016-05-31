@@ -1,7 +1,7 @@
 .column {
 	border: 2px solid;
 	border-color:#5BA3D6;	
-	height:320px;
+	height:311px;
 	margin-left:4%;
 	width:28%;
 	display:inline-block;
@@ -102,7 +102,7 @@ i {
 	width:20px;
 	display:inline-block;
 	box-sizing:border-box;
-	margin:13px;
+	margin:11px;
 	margin-bottom:7px;
 
 }
@@ -114,7 +114,7 @@ i {
 	width:20px;
 	display:inline-block;
 	box-sizing:border-box;
-	margin:13px;
+	margin:11px;
 	margin-bottom:7px;
 }
 
@@ -125,7 +125,7 @@ i {
 	width:20px;
 	display:inline-block;
 	box-sizing:border-box;
-	margin:13px;
+	margin:11px;
 	margin-bottom:7px; 
 }
 
@@ -211,7 +211,7 @@ span {
    
 }
 
-ul {
+.tshirt ul {
 	display: none;
     position: absolute;
     top: -176px;
@@ -220,12 +220,20 @@ ul {
 
 }
 
+@keyframes moveUp {
+  0% {
+    margin-top:0px;
+  }
+  100% {
+    margin-top:-1%;
+  }
+}
+
 .dropdown:hover ul {
-	display: block;
-	border:solid 2px #5BA3D6;
-	background-color:white;
-	height:150px;
-	width:70px;
+	animation: moveUp .2s;
+    animation-iteration-count: once;
+    animation-timing-function: linear;
+    animation-delay:.35s;
 }
 
 .dropdown .small img {
@@ -252,6 +260,13 @@ ul {
 	margin-top:15px;
 	margin-left:18px;
 }
+.dropdown:hover .tshirt ul {
+	display: block;
+	border:solid 2px #5BA3D6;
+	background-color:white;
+	height:150px;
+	width:70px;
+}
 
 .dropdown img{
 	padding-bottom:12px;
@@ -263,10 +278,11 @@ ul {
 
 .flip-container:hover .flipper, .flip-container.hover .flipper {
 	transform: rotateY(180deg);
+	cursor:pointer;
 }
 
 .flip-container, .front, .back {
-	max-width:100%;
+	max-width:250px;
 	height:238px;
 }
 
@@ -285,12 +301,103 @@ ul {
 
 .front {
 	z-index:2;
-
 }
 
 .back {
 	transform:rotateY(180deg);
 }
+
+.dropdownTwo {
+    display: inline-block;
+   	position:relative;   
+}
+
+.dropdownTwo .tshirtColor li {
+	display: inline-block;	
+	
+}
+
+.tshirtColor ul {
+	display: none;
+    position: absolute;
+    top: -91px;
+    margin-left:-12px;
+    margin-top:22px;
+
+}
+
+
+@keyframes moveUp {
+  0% {
+    margin-top:0px;
+  }
+  100% {
+    margin-top:-1%;
+  }
+
+}
+
+.dropdownTwo:hover ul {
+	animation: moveUp .2s;
+    animation-iteration-count: once;
+    animation-timing-function: linear;
+    animation-delay: .35s;
+}
+
+.dropdownTwo:hover .tshirtColor ul {
+	display: block;
+	border:solid 2px #5BA3D6;
+	background-color:white;
+	height:65px;
+	width:65px;
+}
+
+.selector.blue {
+	border:solid #7BB4DC;
+	background-color: #7BB4DC;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	box-sizing:border-box;
+	margin:13px;
+	margin-bottom:7px;
+}
+
+.selector.pink {
+	border:solid #D482AA;
+	background-color: #D482AA;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	box-sizing:border-box;
+	margin:13px;
+	margin-bottom:7px;
+}
+
+.selector.orange {
+	border:solid #D8AD7A;
+	background-color: #D8AD7A;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	box-sizing:border-box;
+	margin:13px;
+	margin-bottom:7px;
+}
+
+.selector.green {
+	border:solid #669966;
+	background-color:#669966;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	box-sizing:border-box;
+	margin:13px;
+	margin-bottom:7px;
+}
+
+
+
 @media screen and (max-width: 990px) {
 	.column{
 		width:46%;
