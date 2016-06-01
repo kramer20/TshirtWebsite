@@ -28,11 +28,10 @@
   vertical-align: top;
   z-index: 100;
   position: relative; }
-
-.flipBox i {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-top: -5px; }
+  .flipBox i {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -5px; }
 
 .blue.box > div {
   border-right: 2px solid #5BA3D6;
@@ -70,7 +69,7 @@ img {
 
 p {
   color: #5BA3D6;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   text-align: center;
   margin: 13px; }
 
@@ -125,19 +124,19 @@ i {
 .column .trees p {
   display: inline-block;
   margin-top: 30px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 300; }
 
 .column .nature p {
   display: inline-block;
   margin-top: 30px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 300; }
 
 .column .forrest p {
   display: inline-block;
   margin-top: 30px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 300; }
 
 .icon:hover {

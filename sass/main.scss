@@ -1,6 +1,19 @@
+$font-type: 'Ubuntu', sans-serif;
+$static-color: #5BA3D6;
+$hover-color: white;
+
+@mixin smallBox () {
+	height:20px;
+	width:20px;
+	display:inline-block;
+	box-sizing:border-box;
+	margin: 11px;
+	margin-bottom:7px;
+	}
+
 .column {
 	border: 2px solid;
-	border-color:#5BA3D6;	
+	border-color:$static-color;	
 	height:150px + 161px;
 	margin-left:4%;
 	width:28%;
@@ -11,7 +24,7 @@
 }
 
 .box {
-	border-top:2px solid #5BA3D6;
+	border-top:2px solid $static-color;
 	height:40px;
 	margin-left:0%;
 	width:50% * 2;
@@ -21,8 +34,8 @@
 }
 
 .flipBox {
-	border-left:2px solid #5BA3D6;
-	border-bottom:2px solid #5BA3D6;
+	border-left:2px solid $static-color;
+	border-bottom:2px solid $static-color;
 	height:25px;
 	width:25px;
 	margin-left:91%;
@@ -30,17 +43,17 @@
 	vertical-align: top;
 	z-index:100;
 	position:relative;
-}
-
-.flipBox i {
- 	padding-top: 5px;
- 	padding-bottom: 5px;
- 	margin-top: -5px;
-}
+		
+	i {
+ 		padding-top: 5px;
+ 		padding-bottom: 5px;
+ 		margin-top: -5px;
+	 }
+}	 
 
 
 .blue.box > div {
-	border-right:2px solid #5BA3D6;
+	border-right:2px solid $static-color;
 	height:42px;
 	width:18%;
 	display:inline-block;
@@ -51,7 +64,7 @@
 
 
 .pink.box > div {
-	border-right:2px solid #5BA3D6;
+	border-right:2px solid $static-color;
 	height:42px;
 	width:18%;
 	display:inline-block;
@@ -61,7 +74,7 @@
 }
 
 .orange.box > div {
-	border-right:2px solid #5BA3D6;
+	border-right:2px solid $static-color;
 	height:42px;
 	width:18%;
 	display:inline-block;
@@ -77,14 +90,14 @@
 
 
 p {
-	color:#5BA3D6;
-	font-family: 'Ubuntu', sans-serif;
+	color:$static-color;
+	font-family: $font-type;
 	text-align: center;
 	margin:13px;
 }
 
 i {
-	color:#5BA3D6;
+	color:$static-color;
 	box-sizing: border-box;
 	display:block;
 	text-align:center;
@@ -93,35 +106,20 @@ i {
 .blue.four .small {
 	border:solid #7BB4DC;
 	background-color: #7BB4DC;
-	height:20px;
-	width:20px;
-	display:inline-block;
-	box-sizing:border-box;
-	margin:11px;
-	margin-bottom:7px;
+	@include smallBox;
 
 }
 
 .pink.four .small {
 	border:solid #D482AA;
 	background-color: #D482AA;
-	height:20px;
-	width:20px;
-	display:inline-block;
-	box-sizing:border-box;
-	margin:11px;
-	margin-bottom:7px;
+	@include smallBox;
 }
 
 .orange.four .small {
 	border:solid #D8AD7A;
 	background-color: #D8AD7A;
-	height:20px;
-	width:20px;
-	display:inline-block;
-	box-sizing:border-box;
-	margin:11px;
-	margin-bottom:7px; 
+	@include smallBox;
 }
 
 .column .box i {
@@ -141,7 +139,7 @@ i {
 .column .trees p {
 	display:inline-block;
 	margin-top: 30px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: $font-type;
 	font-weight: 300;
 
 }
@@ -149,32 +147,32 @@ i {
 .column .nature p {
 	display:inline-block;
 	margin-top: 30px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: $font-type;
 	font-weight: 300;
 }
 
 .column .forrest p {
 	display:inline-block;
 	margin-top: 30px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: $font-type;
 	font-weight: 300;
 }
 
 .icon:hover {
-	background-color:#5BA3D6;
+	background-color:$static-color;
 	cursor:pointer;
 }
 
 .icon:hover i {
-	color:white; 
+	color:$hover-color; 
 }
 
 .icon:hover p {
-	color:white;
+	color:$hover-color;
 }
 
 .icon:hover .small {
-	border-color:white;
+	border-color:$hover-color;
 	border-width: 2px;
 }
 
@@ -299,7 +297,7 @@ span {
 
 .dropdownTwo:hover .tshirtColor ul {
 	display: block;
-	border:solid 2px #5BA3D6;
+	border:solid 2px $static-color;
 	background-color:white;
 	height:70px;
 	width:70px;
