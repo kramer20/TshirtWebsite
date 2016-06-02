@@ -5,10 +5,10 @@ $hover-color: white;
 @mixin smallBox () {
 	height:20px;
 	width:20px;
-	display:inline-block;
+	display:block;
 	box-sizing:border-box;
-	margin: 11px;
-	margin-bottom:7px;
+	margin-top: 11px;
+	margin:auto;
 	}
 
 .column {
@@ -50,14 +50,17 @@ $hover-color: white;
 	 }
 }	 
 
+	
+
 
 .blue.box > div {
 	border-right:2px solid $static-color;
 	height:42px;
-	width:18%;
+	width:20.2%;
 	display:inline-block;
 	box-sizing: border-box;
 	vertical-align: top;
+	margin-left:-4px;
 	
 }
 
@@ -65,20 +68,22 @@ $hover-color: white;
 .pink.box > div {
 	border-right:2px solid $static-color;
 	height:42px;
-	width:18%;
+	width:20.2%;
 	display:inline-block;
 	box-sizing:border-box;
 	vertical-align: top;
+	margin-left:-4px;
 
 }
 
 .orange.box > div {
 	border-right:2px solid $static-color;
 	height:42px;
-	width:18%;
+	width:20.2%;
 	display:inline-block;
 	box-sizing: border-box;
 	vertical-align: top;
+	margin-left:-4px;
 }
 
 .column .box :nth-child(5) {
@@ -87,12 +92,16 @@ $hover-color: white;
 
 @import 'images';
 
+.three > p {
+	margin:0;
+	padding:13px;
+}
 
 p {
 	color:$static-color;
 	font-family: $font-type;
 	text-align: center;
-	margin:13px;
+	
 }
 
 
@@ -107,20 +116,19 @@ i {
 	border:solid #7BB4DC;
 	background-color: #7BB4DC;
 	@include smallBox;
-
-}
+	}
 
 .pink.four .small {
 	border:solid #D482AA;
 	background-color: #D482AA;
 	@include smallBox;
-}
+	}
 
 .orange.four .small {
 	border:solid #D8AD7A;
 	background-color: #D8AD7A;
 	@include smallBox;
-}
+	}	
 
 .column .box i {
 	text-align: center;

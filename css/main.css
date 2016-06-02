@@ -35,26 +35,29 @@
 .blue.box > div {
   border-right: 2px solid #5BA3D6;
   height: 42px;
-  width: 18%;
+  width: 20.2%;
   display: inline-block;
   box-sizing: border-box;
-  vertical-align: top; }
+  vertical-align: top;
+  margin-left: -4px; }
 
 .pink.box > div {
   border-right: 2px solid #5BA3D6;
   height: 42px;
-  width: 18%;
+  width: 20.2%;
   display: inline-block;
   box-sizing: border-box;
-  vertical-align: top; }
+  vertical-align: top;
+  margin-left: -4px; }
 
 .orange.box > div {
   border-right: 2px solid #5BA3D6;
   height: 42px;
-  width: 18%;
+  width: 20.2%;
   display: inline-block;
   box-sizing: border-box;
-  vertical-align: top; }
+  vertical-align: top;
+  margin-left: -4px; }
 
 .column .box :nth-child(5) {
   border-right: none; }
@@ -66,11 +69,14 @@ img {
   margin-top: -15px;
   padding-bottom: 20px; }
 
+.three > p {
+  margin: 0;
+  padding: 13px; }
+
 p {
   color: #5BA3D6;
   font-family: "Ubuntu", sans-serif;
-  text-align: center;
-  margin: 13px; }
+  text-align: center; }
 
 i {
   color: #5BA3D6;
@@ -83,30 +89,30 @@ i {
   background-color: #7BB4DC;
   height: 20px;
   width: 20px;
-  display: inline-block;
+  display: block;
   box-sizing: border-box;
-  margin: 11px;
-  margin-bottom: 7px; }
+  margin-top: 11px;
+  margin: auto; }
 
 .pink.four .small {
   border: solid #D482AA;
   background-color: #D482AA;
   height: 20px;
   width: 20px;
-  display: inline-block;
+  display: block;
   box-sizing: border-box;
-  margin: 11px;
-  margin-bottom: 7px; }
+  margin-top: 11px;
+  margin: auto; }
 
 .orange.four .small {
   border: solid #D8AD7A;
   background-color: #D8AD7A;
   height: 20px;
   width: 20px;
-  display: inline-block;
+  display: block;
   box-sizing: border-box;
-  margin: 11px;
-  margin-bottom: 7px; }
+  margin-top: 11px;
+  margin: auto; }
 
 .column .box i {
   text-align: center;
