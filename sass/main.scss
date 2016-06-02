@@ -16,7 +16,6 @@ $hover-color: white;
 	border-color:$static-color;	
 	height:150px + 161px;
 	margin-left:4%;
-	width:28%;
 	display:inline-block;
 	vertical-align:top;
 	box-sizing:border-box;
@@ -96,6 +95,7 @@ p {
 	margin:13px;
 }
 
+
 i {
 	color:$static-color;
 	box-sizing: border-box;
@@ -140,22 +140,23 @@ i {
 	display:inline-block;
 	margin-top: 30px;
 	font-family: $font-type;
-	font-weight: 300;
+}
 
+.price {
+	font-weight:bold;
 }
 
 .column .nature p {
 	display:inline-block;
 	margin-top: 30px;
 	font-family: $font-type;
-	font-weight: 300;
+
 }
 
 .column .forrest p {
 	display:inline-block;
 	margin-top: 30px;
 	font-family: $font-type;
-	font-weight: 300;
 }
 
 .icon:hover {
@@ -349,18 +350,3 @@ span {
 	
 }
 
-
-@media screen and (max-width: 990px) {
-	.column{
-		width:46%;
-		margin-left: 0;
-	}
-}
-
-
-@media screen and (max-width: 480px) {
-	.column{
-		width:100%;
-		margin-left: 0;
-	}
-}

@@ -3,7 +3,6 @@
   border-color: #5BA3D6;
   height: 311px;
   margin-left: 4%;
-  width: 28%;
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
@@ -124,20 +123,20 @@ i {
 .column .trees p {
   display: inline-block;
   margin-top: 30px;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300; }
+  font-family: "Ubuntu", sans-serif; }
+
+.price {
+  font-weight: bold; }
 
 .column .nature p {
   display: inline-block;
   margin-top: 30px;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300; }
+  font-family: "Ubuntu", sans-serif; }
 
 .column .forrest p {
   display: inline-block;
   margin-top: 30px;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300; }
+  font-family: "Ubuntu", sans-serif; }
 
 .icon:hover {
   background-color: #5BA3D6;
@@ -330,13 +329,3 @@ span {
   display: inline-block;
   box-sizing: border-box;
   margin: 3px; }
-
-@media screen and (max-width: 990px) {
-  .column {
-    width: 46%;
-    margin-left: 0; } }
-
-@media screen and (max-width: 480px) {
-  .column {
-    width: 100%;
-    margin-left: 0; } }
