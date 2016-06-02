@@ -274,8 +274,8 @@ span {
 .tshirtColor ul {
 	display: none;
     position: absolute;
-    top: -96px;
-    margin-left:-15px;
+    top: -94px;
+    margin-left:-11px;
     margin-top:22px;
 }
 
@@ -305,48 +305,52 @@ span {
 }
 
 .selector.blue {
-	border:solid #7BB4DC;
-	background-color: #7BB4DC;
-	height:20px;
-	width:20px;
-	display:inline-block;
-	box-sizing:border-box;
-	margin:3px;
-	margin-top: 12px;
-	margin-left: 10px;
-}
+		border:solid #7BB4DC;
+		background-color: #7BB4DC;
+		height:20px;
+		width:20px;
+		display:inline-block;
+		box-sizing:border-box;
+		margin:3px;
+		margin-top: 12px;
+		margin-left: 10px;
+		margin-bottom:-2px;	
+	}	
 
 .selector.pink {
-	border:solid #D482AA;
-	background-color: #D482AA;
-	height:20px;
-	width:20px;
-	display:inline-block;
-	box-sizing:border-box;
-	margin:3px;
-	margin-top: 12px;
-}
+		border:solid #D482AA;
+		background-color: #D482AA;
+		height:20px;
+		width:20px;
+		display:inline-block;
+		box-sizing:border-box;
+		margin:3px;
+		margin-top: 12px;
+		margin-bottom:-2px;
+		}
+		
 
 .selector.orange {
-	border:solid #D8AD7A;
-	background-color: #D8AD7A;
-	height:20px;
-	width:20px;
-	display:inline-block;
-	box-sizing:border-box;
-	margin:3px;
-	margin-left:10px;
-	
-}
+		border:solid #D8AD7A;
+		background-color: #D8AD7A;
+		height:20px;
+		width:20px;
+		display:inline-block;
+		box-sizing:border-box;
+		margin:3px;
+		margin-left:10px;
+		}	
 
 .selector.green {
-	border:solid #669966;
-	background-color:#669966;
-	height:20px;
-	width:20px;
-	display:inline-block;
-	box-sizing:border-box;
-	margin:3px;
-	
-}
+		border:solid #669966;
+		background-color:#669966;
+		height:20px;
+		width:20px;
+		display:inline-block;
+		box-sizing:border-box;
+		margin:3px;
+		}	
+
+
+
 

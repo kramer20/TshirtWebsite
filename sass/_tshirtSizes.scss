@@ -3,9 +3,16 @@
     position: absolute;
     top: -176px;
     margin-left:-12px;
-    margin-top:22px;
+    margin-top:26px;
     padding:0;
 
+}
+.dropdown:hover .tshirt ul {
+	display: block;
+	border:solid 2px #5BA3D6;
+	background-color:white;
+	height:150px;
+	width:70px;
 }
 
 .dropdown:hover ul {
@@ -18,26 +25,33 @@
 .dropdown {
 	.small {
 		 img {
-		height:20px;
+		height:29px;
 		width:20px;	
-		margin-left:25px;
+		margin-left:22px;
+		margin-top: -8px;
+
 		}
 	}
 	.medium img {
-		height:25px;
+		height:34px;
 		width:25px;
-		margin-left:22px;
+		margin-left:20px;
+		margin-top:-8px;
+
 	}
 	.large img {
-		height:30px;
-		margin-left: 20px;
+		height:39px;
+		margin-left:18px;
 		width:30px;
+		margin-top: -8px;
+		
 	}
 	.extraLarge img {
-		height:35px;
+		height:44px;
 		width:35px;
 		margin-top:15px;
-		margin-left:18px;
+		margin-left:16px;
+	
 	}
 
 	img{
@@ -45,11 +59,4 @@
 	}
 }	
 
-.dropdown:hover .tshirt ul {
-	display: block;
-	border:solid 2px #5BA3D6;
-	background-color:white;
-	height:150px;
-	width:70px;
-}
 

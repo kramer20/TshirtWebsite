@@ -189,8 +189,15 @@ span {
   position: absolute;
   top: -176px;
   margin-left: -12px;
-  margin-top: 22px;
+  margin-top: 26px;
   padding: 0; }
+
+.dropdown:hover .tshirt ul {
+  display: block;
+  border: solid 2px #5BA3D6;
+  background-color: white;
+  height: 150px;
+  width: 70px; }
 
 .dropdown:hover ul {
   animation: moveUp .2s, fade .2s;
@@ -199,35 +206,31 @@ span {
   animation-delay: .35s; }
 
 .dropdown .small img {
-  height: 20px;
+  height: 29px;
   width: 20px;
-  margin-left: 25px; }
+  margin-left: 22px;
+  margin-top: -8px; }
 
 .dropdown .medium img {
-  height: 25px;
+  height: 34px;
   width: 25px;
-  margin-left: 22px; }
+  margin-left: 20px;
+  margin-top: -8px; }
 
 .dropdown .large img {
-  height: 30px;
-  margin-left: 20px;
-  width: 30px; }
+  height: 39px;
+  margin-left: 18px;
+  width: 30px;
+  margin-top: -8px; }
 
 .dropdown .extraLarge img {
-  height: 35px;
+  height: 44px;
   width: 35px;
   margin-top: 15px;
-  margin-left: 18px; }
+  margin-left: 16px; }
 
 .dropdown img {
   padding-bottom: 12px; }
-
-.dropdown:hover .tshirt ul {
-  display: block;
-  border: solid 2px #5BA3D6;
-  background-color: white;
-  height: 150px;
-  width: 70px; }
 
 .flip-container {
   perspective: 1000px; }
@@ -267,8 +270,8 @@ span {
 .tshirtColor ul {
   display: none;
   position: absolute;
-  top: -96px;
-  margin-left: -15px;
+  top: -94px;
+  margin-left: -11px;
   margin-top: 22px; }
 
 @keyframes moveUp {
@@ -299,7 +302,8 @@ span {
   box-sizing: border-box;
   margin: 3px;
   margin-top: 12px;
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin-bottom: -2px; }
 
 .selector.pink {
   border: solid #D482AA;
@@ -309,7 +313,8 @@ span {
   display: inline-block;
   box-sizing: border-box;
   margin: 3px;
-  margin-top: 12px; }
+  margin-top: 12px;
+  margin-bottom: -2px; }
 
 .selector.orange {
   border: solid #D8AD7A;
